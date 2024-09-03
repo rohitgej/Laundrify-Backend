@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/', {
+mongoose.connect('mongodb+srv://aswathy:YxxUgQXU1S61UKSu@cluster0.tisb8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
 })
   .then(() => {
     console.log('Connected to MongoDB');
